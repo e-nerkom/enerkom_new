@@ -2,7 +2,7 @@
 
 @push('css')
 <style>
-    .carousel .item {
+    /* .carousel .item {
         background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/{{$banner1}}) no-repeat;
         background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/{{$banner1}}) no-repeat;
         background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/{{$banner1}}) no-repeat;
@@ -24,7 +24,7 @@
         background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/{{$banner3}}) no-repeat;
         background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/{{$banner3}}) no-repeat;
         background-size: cover;
-    }
+    } */
 </style>
 @endpush
 
@@ -258,12 +258,12 @@
                 <li class="portfolio-item2" data-id="id-0" data-type="cat-item-2">
                     <div>
                         <span class="image-block block2 img-hover">
-                            <a class="image-zoom" href="{{asset('images/simolta.png')}}" rel="prettyPhoto[gallery]">
+                            <a class="image-zoom" href="{{asset('images/projects/1-1.jpeg')}}" rel="prettyPhoto[gallery]">
 
-                                <img src="{{asset('images/simolta.png')}}" class="img-responsive" alt="Conceit">
+                                <img src="{{asset('images/projects/1-1.jpeg')}}" class="img-responsive" alt="Conceit">
                                 <div class="port-info">
-                                    <h5>Simolita</h5>
-                                    <p>Sistem Monitoring Listrik Kota</p>
+                                    <h5>Siper</h5>
+                                    <!-- <p>Sistem Informasi Perangkat</p> -->
                                 </div>
                             </a>
                         </span>
@@ -274,11 +274,11 @@
                 <li class="portfolio-item2" data-id="id-1" data-type="cat-item-2">
                     <div>
                         <span class="image-block block2">
-                            <a class="image-zoom" href="{{asset('images/pju.png')}}" rel="prettyPhoto[gallery]">
-                                <img src="{{asset('images/pju.png')}}" class="img-responsive" alt="Conceit">
+                            <a class="image-zoom" href="{{asset('images/projects/2-1.jpeg')}}" rel="prettyPhoto[gallery]">
+                                <img src="{{asset('images/projects/2-1.jpeg')}}" class="img-responsive" alt="Conceit">
                                 <div class="port-info">
-                                    <h5>PJU Solar Cell</h5>
-                                    <p>Penerangan Jalan Umum</p>
+                                    <h5>Kejaksaan Tinggi Sulawesi Selatan</h5>
+                                    <!-- <p>Kejaksaan Tinggi Sulawesi Selatan</p> -->
                                 </div>
                             </a>
                         </span>
@@ -289,11 +289,11 @@
                 <li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">
                     <div>
                         <span class="image-block block2">
-                            <a class="image-zoom" href="{{asset('images/radio.png')}}" rel="prettyPhoto[gallery]">
-                                <img src="{{asset('images/radio.png')}}" class="img-responsive" alt="Conceit">
+                            <a class="image-zoom" href="{{asset('images/projects/3-1.jpeg')}}" rel="prettyPhoto[gallery]">
+                                <img src="{{asset('images/projects/3-1.jpeg')}}" class="img-responsive" alt="Conceit">
                                 <div class="port-info">
-                                    <h5>Radio</h5>
-                                    <p>Radio Komunikasi</p>
+                                    <h5>Survei SDPPI</h5>
+                                    <!-- <p>Survei SDPPI</p> -->
                                 </div>
                             </a>
                         </span>
@@ -304,11 +304,81 @@
                 <li class="portfolio-item2" data-id="id-3" data-type="cat-item-1">
                     <div>
                         <span class="image-block block2">
-                            <a class="image-zoom" href="{{asset('images/gps.png')}}" rel="prettyPhoto[gallery]">
-                                <img src="{{asset('images/gps.png')}}" class="img-responsive" alt="Conceit">
+                            <a class="image-zoom" href="{{asset('images/projects/3-3.jpeg')}}" rel="prettyPhoto[gallery]">
+                                <img src="{{asset('images/projects/3-3.jpeg')}}" class="img-responsive" alt="Conceit">
                                 <div class="port-info">
-                                    <h5>GPS</h5>
-                                    <p>GPS Tracker</p>
+                                    <h5>Spectrum Map</h5>
+                                    <!-- <p>Visualisasi Peta dari Database</p> -->
+                                </div>
+                            </a>
+                        </span>
+                    </div>
+                </li>
+
+                <li class="portfolio-item2" data-id="id-3" data-type="cat-item-1">
+                    <div>
+                        <span class="image-block block2">
+                            <a class="image-zoom" href="{{asset('images/projects/5-2.jpeg')}}" rel="prettyPhoto[gallery]">
+                                <img src="{{asset('images/projects/5-2.jpeg')}}" class="img-responsive" alt="Conceit">
+                                <div class="port-info">
+                                    <h5>Si-Filma</h5>
+                                    <!-- <p>Sistem Informasi File Manifest  Management</p> -->
+                                </div>
+                            </a>
+                        </span>
+                    </div>
+                </li>
+
+                <li class="portfolio-item2" data-id="id-3" data-type="cat-item-1">
+                    <div>
+                        <span class="image-block block2">
+                            <a class="image-zoom" href="{{asset('images/projects/7-1.jpeg')}}" rel="prettyPhoto[gallery]">
+                                <img src="{{asset('images/projects/7-1.jpeg')}}" class="img-responsive" alt="Conceit">
+                                <div class="port-info">
+                                    <h5>E-Monitoring SDPPI</h5>
+                                    <!-- <p>Visualisasi Peta dari Database</p> -->
+                                </div>
+                            </a>
+                        </span>
+                    </div>
+                </li>
+
+                <li class="portfolio-item2" data-id="id-3" data-type="cat-item-1">
+                    <div>
+                        <span class="image-block block2">
+                            <a class="image-zoom" href="{{asset('images/projects/8-1.jpg')}}" rel="prettyPhoto[gallery]">
+                                <img src="{{asset('images/projects/8-1.jpg')}}" class="img-responsive" alt="Conceit">
+                                <div class="port-info">
+                                    <h5>Imunisasi</h5>
+                                    <!-- <p>Visualisasi Peta dari Database</p> -->
+                                </div>
+                            </a>
+                        </span>
+                    </div>
+                </li>
+
+                <li class="portfolio-item2" data-id="id-3" data-type="cat-item-1">
+                    <div>
+                        <span class="image-block block2">
+                            <a class="image-zoom" href="{{asset('images/projects/9-2.JPG')}}" rel="prettyPhoto[gallery]">
+                                <img src="{{asset('images/projects/9-2.JPG')}}" class="img-responsive" alt="Conceit">
+                                <div class="port-info">
+                                    <h5>SiPesat</h5>
+                                    <!-- <p>Visualisasi Peta dari Database</p> -->
+                                </div>
+                            </a>
+                        </span>
+                    </div>
+                </li>
+
+                <li class="portfolio-item2" data-id="id-3" data-type="cat-item-1">
+                    <div>
+                        <span class="image-block block2">
+                            <a class="image-zoom" href="{{asset('images/projects/smsn.PNG')}}" rel="prettyPhoto[gallery]">
+                                <img src="{{asset('images/projects/smsn.PNG')}}" class="img-responsive" alt="Conceit">
+                                <div class="port-info">
+                                    <h5>SMSN</h5>
+                                    <!-- <p>Visualisasi Peta dari Database</p> -->
                                 </div>
                             </a>
                         </span>

@@ -11,7 +11,9 @@
             <span class="icon-bar"></span>
           </button>
 					<div class="logo-w3layouts-agileits">
-						<h1> <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('images/enerkom.png')}}"></a></h1>
+						<a class="navbar-brand" href="{{url('/')}}">
+							<img src="{{asset('images/enerkom.png')}}" class="img-responsive">
+						</a>
 					</div>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
