@@ -12,7 +12,7 @@
           </button>
 					<div class="logo-w3layouts-agileits">
 						<a class="navbar-brand" href="{{url('/')}}">
-							<img src="{{asset('images/enerkom.png')}}" class="img-responsive">
+							<img src="{{asset('images/logo1.png')}}" class="img-responsive">
 						</a>
 					</div>
 				</div>

@@ -74,47 +74,47 @@
                     </h4>
                     <ul>
                         <li>
-                            <a href="{{asset('images/projects/1.jpg')}}">
+                            <a href="{{asset('images/projects/1.jpg')}}" target="_BLANK">
                                 <img src="{{asset('images/projects/1.jpg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                         <li>
-                            <a href="{{asset('images/projects/2-1.jpeg')}}">
+                            <a href="{{asset('images/projects/2-1.jpeg')}}" target="_BLANK">
                                 <img src="{{asset('images/projects/2-1.jpeg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                         <li>
-                            <a href="/images/projects/4.jpg">
+                            <a href="/images/projects/4.jpg" target="_BLANK">
                                 <img src="{{asset('images/projects/4.jpg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                         <li>
-                            <a href="/images/projects/2.jpg">
+                            <a href="/images/projects/2.jpg" target="_BLANK">
                                 <img src="{{asset('images/projects/2.jpg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                         <li>
-                            <a href="/images/projects/3.jpg">
+                            <a href="/images/projects/3.jpg" target="_BLANK">
                                 <img src="{{asset('images/projects/3.jpg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                         <li>
-                            <a href="/images/projects/7-1.jpeg">
+                            <a href="/images/projects/7-1.jpeg" target="_BLANK">
                                 <img src="{{asset('images/projects/7-1.jpeg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                         <li>
-                            <a href="/images/projects/8-1.jpg">
+                            <a href="/images/projects/8-1.jpg" target="_BLANK">
                                 <img src="{{asset('images/projects/6.jpg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                         <li>
-                            <a href="/images/projects/9-2.jpg">
+                            <a href="/images/projects/9-2.jpg" target="_BLANK">
                                 <img src="{{asset('images/projects/8.jpg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                         <li>
-                            <a href="/images/projects/5.jpg">
+                            <a href="/images/projects/5.jpg" target="_BLANK">
                                 <img src="{{asset('images/projects/5.jpg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
