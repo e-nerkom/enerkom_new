@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,8 @@ Route::get('/about', function () {
 
 Route::get('/contact', [ContactController::class, 'index']);
 Route::post('/contact', [ContactController::class, 'create']);
+Route::get('/admin/login', [AuthController::class, 'login']);
+Route::post('/admin/login', [AuthController::class, 'postLogin']);
+Route::get('/admin/register', [AuthController::class, 'register']);
+Route::post('/admin/register', [AuthController::class, 'postRegister']);
+Route::get('/admin/logout', [AuthController::class, 'logout']);
