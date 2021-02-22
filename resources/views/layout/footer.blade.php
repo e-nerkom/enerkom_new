@@ -74,23 +74,48 @@
                     </h4>
                     <ul>
                         <li>
-                            <a href="{{asset('images/simolta.png')}}">
-                                <img src="{{asset('images/simolta.png')}}" alt=" " class="img-responsive" />
+                            <a href="{{asset('images/projects/1.jpg')}}">
+                                <img src="{{asset('images/projects/1.jpg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                         <li>
-                            <a href="/images/pju.png">
-                                <img src="{{asset('images/pju.png')}}" alt=" " class="img-responsive" />
+                            <a href="{{asset('images/projects/2-1.jpeg')}}">
+                                <img src="{{asset('images/projects/2-1.jpeg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                         <li>
-                            <a href="/images/radio.png">
-                                <img src="{{asset('images/radio.png')}}" alt=" " class="img-responsive" />
+                            <a href="/images/projects/4.jpg">
+                                <img src="{{asset('images/projects/4.jpg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                         <li>
-                            <a href="/images/gps.png">
-                                <img src="{{asset('images/gps.png')}}" alt=" " class="img-responsive" />
+                            <a href="/images/projects/2.jpg">
+                                <img src="{{asset('images/projects/2.jpg')}}" alt=" " class="img-responsive" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/images/projects/3.jpg">
+                                <img src="{{asset('images/projects/3.jpg')}}" alt=" " class="img-responsive" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/images/projects/7-1.jpeg">
+                                <img src="{{asset('images/projects/7-1.jpeg')}}" alt=" " class="img-responsive" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/images/projects/8-1.jpg">
+                                <img src="{{asset('images/projects/6.jpg')}}" alt=" " class="img-responsive" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/images/projects/9-2.jpg">
+                                <img src="{{asset('images/projects/8.jpg')}}" alt=" " class="img-responsive" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/images/projects/5.jpg">
+                                <img src="{{asset('images/projects/5.jpg')}}" alt=" " class="img-responsive" />
                             </a>
                         </li>
                     </ul>
