@@ -969,9 +969,11 @@ ul.portfolio-categ li a {
 @media(max-width:1366px){
 	.portfolio-area li {
         float: left;
-        margin: 0 12px 0px 0;
+        /*margin: 0 12px 0px 0;*/
+        margin: 5px;
         overflow: hidden;
-        width: 307px;
+        width: 24%;
+        min-height: 250px;
     }
 }
 @media(max-width:1280px){
