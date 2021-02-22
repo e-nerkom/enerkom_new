@@ -278,7 +278,7 @@
                                 <img src="{{asset('images/projects/2-1.jpeg')}}" class="img-responsive" alt="Conceit">
                                 <div class="port-info">
                                     <h5>Kejaksaan Tinggi Sulawesi Selatan</h5>
-                                    <!-- <p>Kejaksaan Tinggi Sulawesi Selatan</p> -->
+                                    <!-- <p>Sulawesi Selatan</p> -->
                                 </div>
                             </a>
                         </span>
@@ -349,7 +349,7 @@
                             <a class="image-zoom" href="{{asset('images/projects/8-1.jpg')}}" rel="prettyPhoto[gallery]">
                                 <img src="{{asset('images/projects/6.jpg')}}" class="img-responsive" alt="Conceit">
                                 <div class="port-info">
-                                    <h5>Imunisasi</h5>
+                                    <h5>Aplikasi Anak Sehat</h5>
                                     <!-- <p>Visualisasi Peta dari Database</p> -->
                                 </div>
                             </a>
