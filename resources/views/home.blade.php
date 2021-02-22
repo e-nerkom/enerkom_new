@@ -2,7 +2,7 @@
 
 @push('css')
 <style>
-    /* .carousel .item {
+    .carousel .item {
         background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/{{$banner1}}) no-repeat;
         background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/{{$banner1}}) no-repeat;
         background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/{{$banner1}}) no-repeat;
@@ -24,7 +24,7 @@
         background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/{{$banner3}}) no-repeat;
         background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/{{$banner3}}) no-repeat;
         background-size: cover;
-    } */
+    }
 </style>
 @endpush
 
@@ -240,7 +240,7 @@
         <h3 class="tittle-w3ls">Projects</h3>
         <div class="inner_sec_info_wthree_agile">
             <!--/projects-->
-            <ul class="portfolio-categ filter">
+            <!-- <ul class="portfolio-categ filter">
                 <li class="port-filter all active">
                     <a href="#">All</a>
                 </li>
@@ -250,7 +250,7 @@
                 <li class="cat-item-2">
                     <a href="#" title="Category 2">Telekomunikasi & IT</a>
                 </li>
-            </ul>
+            </ul> -->
 
 
             <ul class="portfolio-area">
