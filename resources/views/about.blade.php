@@ -127,7 +127,7 @@
 	<div class="container">
 		<h3 class="tittle-w3ls">Our Team</h3>
 		<div class="inner_sec_info_wthree_agile">
-			<!-- <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="100" data-aos-anchor-placement="top-bottom" class="col-md-3 team_grid_info">
+			<div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="100" data-aos-anchor-placement="top-bottom" class="col-md-3 team_grid_info">
 				<img src="{{asset('images/nopic.jpg')}}" alt=" " class="img-responsive" />
 				<h3>Egne Novanda </h3>
 				<p>CEO</p>
@@ -151,7 +151,7 @@
 			</div>
 			<div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="600" data-aos-anchor-placement="top-bottom" class="col-md-3 team_grid_info">
 				<img src="{{asset('images/nopic.jpg')}}" alt=" " class="img-responsive" />
-				<h3>Anliane Yuliacaesari </h3>
+				<h3>Team 2</h3>
 				<p>Creative Development</p>
 
 				<div class="team_icons">
@@ -171,7 +171,7 @@
 			</div>
 			<div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="1100" data-aos-anchor-placement="top-bottom" class="col-md-3 team_grid_info">
 				<img src="{{asset('images/nopic.jpg')}}" alt=" " class="img-responsive" />
-				<h3>Singgih Aji</h3>
+				<h3>Team 3</h3>
 				<p>Full Stack Web Developer</p>
 
 				<div class="team_icons">
@@ -192,7 +192,7 @@
 			</div>
 			<div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="1600" data-aos-anchor-placement="top-bottom" class="col-md-3 team_grid_info">
 				<img src="{{asset('images/nopic.jpg')}}" alt=" " class="img-responsive" />
-				<h3>Neni Mulyani </h3>
+				<h3>Team 4</h3>
 				<p>Secretary</p>
 
 				<div class="team_icons">
@@ -210,7 +210,7 @@
 					</ul>
 				</div>
 
-			</div> -->
+			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
