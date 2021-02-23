@@ -707,6 +707,24 @@ a.blog-btn:hover {
     -moz-background-size: cover;
 }
 
+/*Portfolio*/
+.portfolio-area li:hover .portfolio-desc {
+    display: inline-block;
+}
+.portfolio-desc {
+    display: none;
+    background-color: #ffffff;
+    border: 5px solid #ddd;
+    position: absolute;
+    top: 0;
+    padding: 5px 10px;
+}
+.portfolio-desc p {
+    font-size: 14px;
+    text-align: justify;
+    color: #333;
+}
+
 #quote-carousel {
     padding: 0 10px 30px 10px;
     margin-top: 30px;

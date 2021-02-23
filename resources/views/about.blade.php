@@ -18,7 +18,7 @@
 </div>
 <!--//banner_info-->
 <!--/ab-->
-<div class="banner_bottom">
+<div class="banner_bottom" style="padding-bottom:0">
     <div class="container">
         <h3 data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="50" class="tittle-w3ls">About Us</h3>
         <div class="inner_sec_info_wthree_agile">
@@ -43,7 +43,10 @@
                 <div class="clearfix"></div>
             </div>
         </div>
-        <div class="news-main">
+        
+    </div>
+    <div class="news-main" style="padding-bottom:4em;">
+        <div class="container">
             <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="100" data-aos-anchor-placement="top-bottom" class="col-md-4 banner_bottom_left">
                 <div class="banner_bottom_pos">
                     <div class="banner_bottom_pos_grid">

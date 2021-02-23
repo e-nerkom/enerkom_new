@@ -203,8 +203,8 @@
                 </div>
                 <div data-aos="flip-down" data-aos-duration="1000" data-aos-delay="50" class="col-md-6 ser-first-grid text-center">
                     <span class="fas fa-bolt" aria-hidden="true"></span>
-                    <h3>Kelistrikan</h3>
-                    <p>Dalam bidang Kelistrikan pekerjaan yang ditangani mencakup Pengadaan Barang dan Pengadaan Jasa.</p>
+                    <h3>Sistem Integrator</h3>
+                    <p>Perencanaan, perancangan, dan analisa sistem perangkat lunak berbasis Website atau Mobile.</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -269,9 +269,15 @@
                                 <img src="{{asset('images/projects/1.jpg')}}" class="img-responsive" alt="Conceit">
                                 <div class="port-info">
                                     <h5>Siper</h5>
-                                    <!-- <p>Sistem Informasi Perangkat</p> -->
                                 </div>
                             </a>
+                            <div class="portfolio-desc">
+                                <p>Aplikasi SIPER (Sistem Informasi Perangkat)
+                                    adalah aplikasi berbasis Web yang digunakan
+                                    untuk melakukan tata kelola inventarisasi dan
+                                    monitoring terhadap status dan konidisi perangkat
+                                    di seluruh UPT Ditjen SDPPI. </p>
+                            </div>
                         </span>
                     </div>
                 </li>
@@ -287,21 +293,11 @@
                                     <!-- <p>Sulawesi Selatan</p> -->
                                 </div>
                             </a>
-                        </span>
-                    </div>
-                </li>
-
-
-                <li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">
-                    <div>
-                        <span class="image-block block2">
-                            <a class="image-zoom" href="{{asset('images/projects/4.jpg')}}" rel="prettyPhoto[gallery]">
-                                <img src="{{asset('images/projects/4.jpg')}}" class="img-responsive" alt="Conceit">
-                                <div class="port-info">
-                                    <h5>Survei SDPPI</h5>
-                                    <!-- <p>Survei SDPPI</p> -->
-                                </div>
-                            </a>
+                            <div class="portfolio-desc">
+                                <p>Merupakan web atau situs resmi dari Kejaksaan
+                                    Tinggi Sulawesi Selatan yang didalamnya
+                                    terdapat informasi dan berita terkait Kejati Sulsel.</p>
+                            </div>
                         </span>
                     </div>
                 </li>
@@ -317,6 +313,12 @@
                                     <!-- <p>Visualisasi Peta dari Database</p> -->
                                 </div>
                             </a>
+                            <div class="portfolio-desc">
+                                <p>Aplikasi spectrum MAP adalah aplikasi berbasis
+                                    Web dan Desktop yang digunakan untuk
+                                    melakukan monitoring dan observasi terhadap
+                                    hasil dari monitoring spectrum</p>
+                            </div>
                         </span>
                     </div>
                 </li>
@@ -328,23 +330,14 @@
                                 <img src="{{asset('images/projects/3.jpg')}}" class="img-responsive" alt="Conceit">
                                 <div class="port-info">
                                     <h5>Si-Filma</h5>
-                                    <!-- <p>Sistem Informasi File Manifest  Management</p> -->
                                 </div>
                             </a>
-                        </span>
-                    </div>
-                </li>
-
-                <li class="portfolio-item2" data-id="id-3" data-type="cat-item-1">
-                    <div>
-                        <span class="image-block block2">
-                            <a class="image-zoom" href="{{asset('images/projects/7-1.jpeg')}}" rel="prettyPhoto[gallery]">
-                                <img src="{{asset('images/projects/7-1.jpeg')}}" class="img-responsive" alt="Conceit">
-                                <div class="port-info">
-                                    <h5>E-Monitoring SDPPI</h5>
-                                    <!-- <p>Visualisasi Peta dari Database</p> -->
-                                </div>
-                            </a>
+                            <div class="portfolio-desc">
+                                <p>Aplikasi SI-FILMA adalah aplikasi berbasis Web
+                                    yang digunakan untuk melakukan pengelolaan
+                                    file manifest dan pelayanan Aktivasi kartu SAM
+                                    kartu E-KTP</p>
+                            </div>
                         </span>
                     </div>
                 </li>
@@ -356,9 +349,15 @@
                                 <img src="{{asset('images/projects/6.jpg')}}" class="img-responsive" alt="Conceit">
                                 <div class="port-info">
                                     <h5>Aplikasi Anak Sehat</h5>
-                                    <!-- <p>Visualisasi Peta dari Database</p> -->
                                 </div>
                             </a>
+                            <div class="portfolio-desc">
+                                <p>Aplikasi Anak Sehat berbasis Android dan web
+                                    yang digunakan untuk memantau dan
+                                    mengevaluasi tumbuh kembang anak serta ibu
+                                    hamil. Aplikasi ini juga dilengkapi games dan
+                                    forum tanya jawab.</p>
+                            </div>
                         </span>
                     </div>
                 </li>
@@ -370,9 +369,16 @@
                                 <img src="{{asset('images/projects/8.jpg')}}" class="img-responsive" alt="Conceit">
                                 <div class="port-info">
                                     <h5>SiPesat</h5>
-                                    <!-- <p>Visualisasi Peta dari Database</p> -->
                                 </div>
                             </a>
+                            <div class="portfolio-desc">
+                                <p>Aplikasi pendukung penertiban telekomunikasi
+                                    (sipesat) adalah aplikasi berbasis web dan
+                                    android yang berfungsi sebagai media
+                                    pengaduan terhadap adanya gangguan atau
+                                    potensi gangguan baik dari sisi frekuensi ataupun
+                                    perangkat.</p>
+                            </div>
                         </span>
                     </div>
                 </li>
@@ -384,9 +390,35 @@
                                 <img src="{{asset('images/projects/5.jpg')}}" class="img-responsive" alt="Conceit">
                                 <div class="port-info">
                                     <h5>SMSN</h5>
-                                    <!-- <p>Visualisasi Peta dari Database</p> -->
                                 </div>
                             </a>
+                            <div class="portfolio-desc">
+                                <p>Aplikasi SMSN adalah aplikasi berbasis Web dan
+                                    Desktop yang mampu mengolah dan
+                                    menampilkan visualisasi dari data output
+                                    perangkat monitoring yang berasal dari Sistem
+                                    Monitoring Frekuensi Radio (SMFR)</p>
+                            </div>
+                        </span>
+                    </div>
+                </li>
+
+                <li class="portfolio-item2" data-id="id-3" data-type="cat-item-1">
+                    <div>
+                        <span class="image-block block2">
+                            <a class="image-zoom" href="{{asset('images/projects/7-1.jpeg')}}" rel="prettyPhoto[gallery]">
+                                <img src="{{asset('images/projects/7-1.jpeg')}}" class="img-responsive" alt="Conceit">
+                                <div class="port-info">
+                                    <h5>E-Monitoring SDPPI</h5>
+                                </div>
+                            </a>
+                            <div class="portfolio-desc">
+                                <p>Aplikasi SURVEY SDPPI adalah aplikasi
+                                    berbasis Web yang digunakan untuk melakukan
+                                    survey internal maupun eksternal dengan
+                                    dukungan fitur yang lengkap pada Direktorat
+                                    Operasi SDPPI.</p>
+                            </div>
                         </span>
                     </div>
                 </li>
