@@ -23,9 +23,17 @@
 			<div class="inner_sec_info_wthree_agile">
 				<div class="signin-form">
 					<div class="login-form-rec">
+						@if (session('errMsg'))
+		                    <div class="alert alert-danger">
+		                        {{ session('errMsg') }}
+		                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+		                    </div>
+		                @endif
 						<form action="{{ url('admin/register') }}" method="POST">
 						{{ csrf_field() }}
-							<input type="text" name="username" placeholder="Username" required="">
+							<input type="text" name="username" placeholder="Username" required="" value="{{ old('username') }}">
 							<input type="password" name="password" id="password1" placeholder="Password" required="">
 							<input type="password" name="password_confirmation" id="password2" placeholder="Confirm Password" required="">
 							<input type="submit" value="Sign Up">
