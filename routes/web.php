@@ -28,8 +28,15 @@ Route::get('/about', function () {
 
 Route::get('/contact', [ContactController::class, 'index']);
 Route::post('/contact', [ContactController::class, 'create']);
-Route::get('/admin/login', [AuthController::class, 'login']);
+Route::get('/admin/login', [AuthController::class, 'login'])->name('login');
 Route::post('/admin/login', [AuthController::class, 'postLogin']);
 Route::get('/admin/register', [AuthController::class, 'register']);
 Route::post('/admin/register', [AuthController::class, 'postRegister']);
 Route::get('/admin/logout', [AuthController::class, 'logout']);
+
+Route::group(['middleware'=>'auth','prefix' => 'admin'], function(){
+	Route::get('/dashboard', function() {
+		return view('admin/dashboard');
+	});
+
+});

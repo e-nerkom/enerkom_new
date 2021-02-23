@@ -9,6 +9,7 @@ use Session;
 use App\Models\User;
 use Validator;
 use App\Http\Requests;
+use Illuminate\Support\Facades\Log;
 
 class AuthController extends Controller
 {
@@ -19,7 +20,6 @@ class AuthController extends Controller
 
     public function postLogin(Request $request)
     {
-    	// dd($request);
         $req = $request->all();
         $rules = [
             'username' => 'required',
@@ -28,29 +28,21 @@ class AuthController extends Controller
         $validator = Validator::make($req, $rules);
 
         if ($validator->fails()) {
-            $request->session()->flash('warning', $validator->errors()->first());
-            return redirect()->back();
+            return redirect('/admin/login')->with('errMsg', $validator->errors()->first());
         }
 
         $user = User::where('username', $req['username'])->first();
-
         if (!$user) {
-            $request->session()->flash('warning', 'User not found');
-            return redirect()->back();
+            return redirect('/admin/login')->with('errMsg', 'Invalid Credentials. Username not found.');
         }
 
         $check = Hash::check($req['password'], $user->password);
-
         if (! $check) {
-            $request->session()->flash('warning', 'Password not matched');
-            return redirect()->back();
+            return redirect('/admin/login')->with('errMsg', 'Invalid Credentials. Password not matched.');
         }
 
         Auth::login($user);
-
-        $request->session()->flash('success', 'Welcome to dashboard');
-
-        return redirect('admin');
+        return redirect('/admin/dashboard');
         
     }
 
@@ -62,7 +54,6 @@ class AuthController extends Controller
     public function postRegister(Request $request)
     {
     	$req = $request->all();
-
         $rules = [
             'username' => 'required',
             'password' => 'required|min:5|confirmed',
@@ -70,16 +61,13 @@ class AuthController extends Controller
 
         $validator = Validator::make($req, $rules);
         if ($validator->fails()) {
-            // dd($validator->errors()->first());
-            $request->session()->flash('warning', $validator->errors()->first());
-            return redirect()->back();
+            return redirect('/admin/register')->with('errMsg', $validator->errors()->first());
         }
 
         $user = User::where('username',$req['username'])->first();
 
         if ($user != null) {
-            $request->session()->flash('warning', 'user sudah ada');
-            return redirect()->back();
+            return redirect('/admin/register')->with('errMsg', 'Username already registered. Try another username.');
         }
             
         $data = [
@@ -90,14 +78,23 @@ class AuthController extends Controller
         try {
             $user = User::create($data);            
         } catch (Exception $e) {
-            dd($e->getMessages());
-            $request->session()->flash('warning', $e->getMessages());
-            return redirect()->back();
+            Log::debug("Registration failed::".$e->getMessages());
+            return redirect('/admin/register')->with('errMsg', 'Registration failed. Please try again later...');
         }
 
         Auth::login($user);
 
         return redirect('admin/dashboard');
+    }
+
+    public function resetPassword()
+    {
+    	return view('forgot');
+    }
+
+    public function postResetPassword(Request $equest)
+    {
+    	dd($request);
     }
 
     public function logout()

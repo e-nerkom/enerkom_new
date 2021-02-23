@@ -84,11 +84,6 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/images/projects/4.jpg" target="_BLANK">
-                                <img src="{{asset('images/projects/4.jpg')}}" alt=" " class="img-responsive" />
-                            </a>
-                        </li>
-                        <li>
                             <a href="/images/projects/2.jpg" target="_BLANK">
                                 <img src="{{asset('images/projects/2.jpg')}}" alt=" " class="img-responsive" />
                             </a>
