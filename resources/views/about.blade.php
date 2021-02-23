@@ -216,75 +216,14 @@
 	</div>
 </div>
 <!-- //team -->
-
-<!--/testimonials-->
-<div class="tesimonials">
-    <div class="container">
-        <h3 class="tittle-w3ls cen">Testimonials</h3>
-        <div class="inner_sec">
-            <div class="test_grid_sec">
-                <div class="col-md-offset-2 col-md-8">
-                    <div class="carousel slide two" data-ride="carousel" id="quote-carousel">
-                        <!-- Bottom Carousel Indicators -->
-                        <ol class="carousel-indicators two">
-                            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#quote-carousel" data-slide-to="1"></li>
-                        </ol>
-
-                        <!-- Carousel Slides / Quotes -->
-                        <div class="carousel-inner">
-
-                            <!-- Quote 1 -->
-                            <div class="item active">
-                                <blockquote>
-                                    <div class="test_grid">
-                                        <div class="col-sm-3 text-center test_img">
-                                            <img src="{{asset('images/nopic.jpg')}}" class="img-responsive" alt="">
-
-                                        </div>
-                                        <div class="col-sm-9 test_img_info">
-                                            <p>Tidak salah bekerja sama dengan E-nerkom, pekerjaan yang kami kerjakan sesuai rencana & tepat waktu.</p>
-                                            <h6>Sarah</h6>
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>
-                            <!-- Quote 2 -->
-                            <div class="item">
-                                <blockquote>
-                                    <div class="test_grid">
-                                        <div class="col-sm-3 text-center test_img">
-                                            <img src="{{asset('images/nopic.jpg')}}" class="img-responsive" alt="">
-                                        </div>
-                                        <div class="col-sm-9 test_img_info">
-                                            <p>Terima kasih E-nerkom atas kerjasamanya. Saya puas dengan hasil pekerjaan dari E-nerkom.</p>
-                                            <h6>Andi</h6>
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--//testimonials-->
 <!-- /newsletter-->
-<div class="newsletter_w3ls_agileits">
-	<div class="col-sm-6 newsleft">
-		<h3>Segera hubungi kami !</h3>
-	</div>
-	<div class="col-sm-6 newsright">
-		<form action="#" method="post">
-			<input type="email" placeholder="Masukkkan alamat email anda..." name="email" required="">
-			<input type="submit" value="Submit">
-		</form>
-	</div>
+<div class="newsletter_w3ls_agileits" style="background-color:#ff3c41;">
+    <div class="col-sm-12 newsleft text-center">
+        <h3 style="color:#ffffff;">Segera hubungi kami</h3>
+        <a href="/contact" class="btn" style="background:#1700ff;color:#ffffff;font-size:18px;padding:10px 30px;margin-top:20px;border-radius:25px;">Hubungi Kami</a>
+    </div>
 
-	<div class="clearfix"></div>
+    <div class="clearfix"></div>
 </div>
 <!-- //newsletter-->
 @endsection

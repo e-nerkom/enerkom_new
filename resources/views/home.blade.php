@@ -103,32 +103,38 @@
 </div>
 <!--//banner -->
 <!--/ab-->
-<div class="banner_bottom">
+<div class="banner_bottom" style="padding-bottom:0;">
     <div class="container">
         <h3 data-aos="zoom-in-down" data-aos-duration="1000" class="tittle-w3ls">About Us</h3>
         <div class="inner_sec_info_wthree_agile">
             <div class="help_full">
 
-                <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-anchor-placement="top-center" class="col-md-6 banner_bottom_grid help">
-                    <img src="{{asset('images/about.jpg')}}" alt=" " class="img-responsive">
-                </div>
+                
                 <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="50" data-aos-anchor-placement="top-center" class="col-md-6 banner_bottom_left">
-                    <h4>Visi</h4>
-                    <p>Menjadi perusahaan yang profesional, memiliki komitmen dan integritas tinggi yang terpercaya sebagai penyedia solusi aplikasi informasi multimedia berbasis teknologi serta keamanan data berskala global sehingga memberikan manfaat yang optimal untuk perusahaan maupun umum.</p>
-                    <h4>Misi</h4>
+                    <h4 style="margin-bottom:5px;border-bottom:2px solid #ff3c41;">Visi</h4>
+                    <p style="text-align:justify;">Menjadi perusahaan yang profesional, memiliki komitmen dan integritas tinggi yang terpercaya sebagai penyedia solusi aplikasi informasi multimedia berbasis teknologi serta keamanan data berskala global sehingga memberikan manfaat yang optimal untuk perusahaan maupun umum.</p>
+                    <h4 style="margin-bottom:5px;border-bottom:2px solid #ff3c41;">Misi</h4>
                     <ul class="misi">
-                        <li class="about_us">Memberikan kualitas terbaik, pelayanan yang handal, dan implementasi yang tepat dan cepat.</li>
-                        <li class="about_us">Menyediakan tim yang profesional.</li>
-                        <li class="about_us">Menjalankan Kemitraan dengan Perusahaan/Perorangan dalam memenuhi kebutuhan Barang dan Jasa dengan mengutamakan Quality, Cost dan Delivery (QCD) dalam Bidang ICT (Information Communication Technology) di Indonesia.</li>
+                        <li class="about_us" style="text-align:justify">Memberikan kualitas terbaik, pelayanan yang handal, dan implementasi yang tepat dan cepat.</li>
+                        <li class="about_us" style="text-align:justify">Menyediakan tim yang profesional.</li>
+                        <li class="about_us" style="text-align:justify">Menjalankan Kemitraan dengan Perusahaan/Perorangan dalam memenuhi kebutuhan Barang dan Jasa dengan mengutamakan Quality, Cost dan Delivery (QCD) dalam Bidang ICT (Information Communication Technology) di Indonesia.</li>
                     </ul>
-                    <div class="ab_button">
-                        <a class="btn btn-primary btn-lg hvr-underline-from-left" href="{{url('about')}}" role="button">Read More </a>
-                    </div>
+                    
                 </div>
+                <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-anchor-placement="top-center" class="col-md-6 banner_bottom_grid help" style="margin-top:50px;">
+                    <img src="{{asset('images/about_us.jpg')}}" alt=" " class="img-responsive">
+                </div>
+
                 <div class="clearfix"></div>
+                <div class="ab_button" style="text-align:center;">
+                    <a class="btn btn-primary btn-lg hvr-underline-from-left" href="{{url('about')}}" role="button">Read More </a>
+                </div>
             </div>
         </div>
-        <div class="news-main">
+        
+    </div>
+    <div class="news-main" style="padding-bottom:4em;">
+        <div class="container">
             <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="100" data-aos-anchor-placement="top-bottom" class="col-md-4 banner_bottom_left">
                 <div class="banner_bottom_pos">
                     <div class="banner_bottom_pos_grid">
@@ -398,156 +404,11 @@
 </div>
 <!--//projects-->
 
-<!--/blog-->
-<!-- <div class="blog_sec">
-    <h3 class="tittle-w3ls">Latest Blogs</h3>
-    <div class="col-md-6 banner-btm-left">
-        <div class="banner-btm-top">
-            <div class="banner-btm-inner a1">
-                <div class="blog_date">
-
-                    <h4>Jan.05.2018</h4>
-
-                </div>
-                <h6>
-                    <a href="{{url('about')}}">Strategic Planning</a>
-                </h6>
-                <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
-                <div class="clearfix"></div>
-                <a href="{{url('about')}}" class="blog-btn">Know More</a>
-            </div>
-            <div class="banner-btm-inner a2">
-
-            </div>
-        </div>
-        <div class="banner-btm-bottom">
-            <div class="banner-btm-inner a3">
-
-            </div>
-            <div class="banner-btm-inner a4">
-                <div class="blog_date">
-
-                    <h4>Jan.08.2018</h4>
-
-                </div>
-                <h6>
-                    <a href="single.html">Strategic Planning</a>
-                </h6>
-                <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
-                <div class="clearfix"></div>
-                <a href="single.html" class="blog-btn">Know More</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 banner-btm-left">
-        <div class="banner-btm-top">
-            <div class="banner-btm-inner a1">
-                <div class="blog_date">
-
-                    <h4>Jan.25.2018</h4>
-
-                </div>
-                <h6>
-                    <a href="single.html">Strategic Planning</a>
-                </h6>
-                <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
-                <div class="clearfix"></div>
-                <a href="single.html" class="blog-btn">Know More</a>
-            </div>
-            <div class="banner-btm-inner a5">
-
-            </div>
-        </div>
-        <div class="banner-btm-bottom">
-            <div class="banner-btm-inner a6">
-
-            </div>
-            <div class="banner-btm-inner a4">
-                <div class="blog_date">
-
-                    <h4>Jan.05.2018</h4>
-
-                </div>
-                <h6>
-                    <a href="single.html">Strategic Planning</a>
-                </h6>
-                <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
-                <div class="clearfix"></div>
-                <a href="single.html" class="blog-btn">Know More</a>
-            </div>
-        </div>
-    </div>
-    <div class="clearfix"></div>
-</div> -->
-
-<!--//blog-->
-
-<!--/testimonials-->
-<div class="tesimonials">
-    <div class="container">
-        <h3 class="tittle-w3ls cen">Testimonials</h3>
-        <div class="inner_sec">
-            <div class="test_grid_sec">
-                <div class="col-md-offset-2 col-md-8">
-                    <div class="carousel slide two" data-ride="carousel" id="quote-carousel">
-                        <!-- Bottom Carousel Indicators -->
-                        <ol class="carousel-indicators two">
-                            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#quote-carousel" data-slide-to="1"></li>
-                        </ol>
-
-                        <!-- Carousel Slides / Quotes -->
-                        <div class="carousel-inner">
-
-                            <!-- Quote 1 -->
-                            <div class="item active">
-                                <blockquote>
-                                    <div class="test_grid">
-                                        <div class="col-sm-3 text-center test_img">
-                                            <img src="{{asset('images/nopic.jpg')}}" class="img-responsive" alt="">
-
-                                        </div>
-                                        <div class="col-sm-9 test_img_info">
-                                            <p>Tidak salah bekerja sama dengan E-nerkom, pekerjaan yang kami kerjakan sesuai rencana & tepat waktu.</p>
-                                            <h6>Sarah</h6>
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>
-                            <!-- Quote 2 -->
-                            <div class="item">
-                                <blockquote>
-                                    <div class="test_grid">
-                                        <div class="col-sm-3 text-center test_img">
-                                            <img src="{{asset('images/nopic.jpg')}}" class="img-responsive" alt="">
-                                        </div>
-                                        <div class="col-sm-9 test_img_info">
-                                            <p>Terima kasih E-nerkom atas kerjasamanya. Saya puas dengan hasil pekerjaan dari E-nerkom.</p>
-                                            <h6>Andi</h6>
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--//testimonials-->
-
 <!-- /newsletter-->
-<div class="newsletter_w3ls_agileits">
-    <div class="col-sm-6 newsleft">
-        <h3>Segera hubungi kami</h3>
-    </div>
-    <div class="col-sm-6 newsright">
-        <form action="#" method="post">
-            <input type="email" placeholder="Masukkan alamat email anda..." name="email" required="">
-            <input type="submit" value="Submit">
-        </form>
+<div class="newsletter_w3ls_agileits" style="background-color:#ff3c41;">
+    <div class="col-sm-12 newsleft text-center">
+        <h3 style="color:#ffffff;">Segera hubungi kami</h3>
+        <a href="/contact" class="btn" style="background:#1700ff;color:#ffffff;font-size:18px;padding:10px 30px;margin-top:20px;border-radius:25px;">Hubungi Kami</a>
     </div>
 
     <div class="clearfix"></div>
