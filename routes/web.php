@@ -33,10 +33,16 @@ Route::post('/admin/login', [AuthController::class, 'postLogin']);
 Route::get('/admin/register', [AuthController::class, 'register']);
 Route::post('/admin/register', [AuthController::class, 'postRegister']);
 Route::get('/admin/logout', [AuthController::class, 'logout']);
+Route::get('email-view', function() {
+	return view('mail.contact');
+});
 
 Route::group(['middleware'=>'auth','prefix' => 'admin'], function(){
 	Route::get('/dashboard', function() {
 		return view('admin/dashboard');
 	});
+	Route::get('/content', 'App\Http\Controllers\AdminContentController@index');
+	Route::get('/content/{content_id}', 'App\Http\Controllers\AdminContentController@edit');
+	Route::post('/content/{content_id}', 'App\Http\Controllers\AdminContentController@update');
 
 });

@@ -42,7 +42,7 @@ class AuthController extends Controller
         }
 
         Auth::login($user);
-        return redirect('/admin/dashboard');
+        return redirect('/admin/content');
         
     }
 

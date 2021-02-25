@@ -134,10 +134,10 @@ desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">Main Menu</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="{{url('admin')}}"><i class="fa fa-book"></i> <span>Content Caption</span></a></li>
-        <li><a href="{{url('image')}}"><i class="fa fa-image"></i> <span>Content Image</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Projects</span></a></li>
-        <li><a href="#"><i class="fa fa-user"></i> <span>Contact</span></a></li>
+        <li class="active"><a href="{{url('admin/content')}}"><i class="fa fa-book"></i> <span>Content Caption</span></a></li>
+        <li><a href="{{url('admin/image')}}"><i class="fa fa-image"></i> <span>Content Image</span></a></li>
+        <!-- <li><a href="#"><i class="fa fa-link"></i> <span>Projects</span></a></li>
+        <li><a href="#"><i class="fa fa-user"></i> <span>Contact</span></a></li> -->
       </ul>
       <!-- /.sidebar-menu -->
     </section>

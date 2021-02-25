@@ -24,22 +24,22 @@
         <div class="inner_sec_info_wthree_agile">
             <div class="help_full">
 
-                <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="400" class="col-md-6 banner_bottom_grid help">
-                    <img src="{{asset('images/about.jpg')}}" alt=" " class="img-responsive">
-                </div>
-                <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="400" class="col-md-6 banner_bottom_left">
-                    <h4>Visi</h4>
-                    <p>Menjadi perusahaan yang profesional, memiliki komitmen dan integritas tinggi yang terpercaya sebagai penyedia solusi aplikasi informasi multimedia berbasis teknologi serta keamanan data berskala global sehingga memberikan manfaat yang optimal untuk perusahaan maupun umum.</p>
-                    <h4>Misi</h4>
+                
+                <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="50" data-aos-anchor-placement="top-center" class="col-md-6 banner_bottom_left">
+                    <h4 style="margin-bottom:5px;border-bottom:2px solid #ff3c41;">Visi</h4>
+                    <p style="text-align:justify;">Menjadi perusahaan yang profesional, memiliki komitmen dan integritas tinggi yang terpercaya sebagai penyedia solusi aplikasi informasi multimedia berbasis teknologi serta keamanan data berskala global sehingga memberikan manfaat yang optimal untuk perusahaan maupun umum.</p>
+                    <h4 style="margin-bottom:5px;border-bottom:2px solid #ff3c41;">Misi</h4>
                     <ul class="misi">
-                        <li class="about_us">Memberikan kualitas terbaik, pelayanan yang handal, dan implementasi yang tepat dan cepat.</li>
-                        <li class="about_us">Menyediakan tim yang profesional.</li>
-                        <li class="about_us">Menjalankan Kemitraan dengan Perusahaan/Perorangan dalam memenuhi kebutuhan Barang dan Jasa dengan mengutamakan Quality, Cost dan Delivery (QCD) dalam Bidang ICT (Information Communication Technology) di Indonesia.</li>
+                        <li class="about_us" style="text-align:justify">Memberikan kualitas terbaik, pelayanan yang handal, dan implementasi yang tepat dan cepat.</li>
+                        <li class="about_us" style="text-align:justify">Menyediakan tim yang profesional.</li>
+                        <li class="about_us" style="text-align:justify">Menjalankan Kemitraan dengan Perusahaan/Perorangan dalam memenuhi kebutuhan Barang dan Jasa dengan mengutamakan Quality, Cost dan Delivery (QCD) dalam Bidang ICT (Information Communication Technology) di Indonesia.</li>
                     </ul>
-                    <!-- <div class="ab_button">
-                        <a class="btn btn-primary btn-lg hvr-underline-from-left" href="{{url('about')}}" role="button">Read More </a>
-                    </div> -->
+                    
                 </div>
+                <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-anchor-placement="top-center" class="col-md-6 banner_bottom_grid help" style="margin-top:50px;">
+                    <img src="{{asset('images/about_us.jpg')}}" alt=" " class="img-responsive">
+                </div>
+
                 <div class="clearfix"></div>
             </div>
         </div>
