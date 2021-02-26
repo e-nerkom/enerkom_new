@@ -196,6 +196,20 @@ span.desc {
     background-size: cover;
 }
 
+.btn-contact-us {
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 25px;
+    color: #007bff;
+    border: 2px solid #007bff;
+    font-weight: 600;
+}
+.btn-contact-us:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
 .carousel-caption h2,
 .carousel-caption h3 {
     font-size: 4em;

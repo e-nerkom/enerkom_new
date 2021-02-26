@@ -437,10 +437,10 @@
 <!--//projects-->
 
 <!-- /newsletter-->
-<div class="newsletter_w3ls_agileits" style="background-color:#ff3c41;">
+<div class="newsletter_w3ls_agileits" style="background-color:#dddddd;">
     <div class="col-sm-12 newsleft text-center">
-        <h3 style="color:#ffffff;">Segera hubungi kami</h3>
-        <a href="/contact" class="btn" style="background:#1700ff;color:#ffffff;font-size:18px;padding:10px 30px;margin-top:20px;border-radius:25px;">Hubungi Kami</a>
+        <h3 style="color:#020202;">Segera hubungi kami</h3>
+        <a href="/contact" class="btn btn-contact-us">Hubungi Kami</a>
     </div>
 
     <div class="clearfix"></div>

@@ -2,7 +2,7 @@
 <div class="footer">
     <div class="footer_inner_info_w3ls_agileits">
         <div class="col-md-3 footer-left">
-            <h1> <a href="{{url('/')}}"><img src="{{asset('images/enerkom.png')}}"></a></h1>
+            <h1> <a href="{{url('/')}}"><img src="{{asset('images/mail_logo.png')}}"></a></h1>
             <p>Menjadi perusahaan yang Profesional dan Terkemuka guna menyediakan Barang dan Jasa di Indonesia.</p>
             <ul class="social-nav model-3d-0 footer-social social two">
                 <li>

@@ -33,6 +33,8 @@ Route::post('/admin/login', [AuthController::class, 'postLogin']);
 Route::get('/admin/register', [AuthController::class, 'register']);
 Route::post('/admin/register', [AuthController::class, 'postRegister']);
 Route::get('/admin/logout', [AuthController::class, 'logout']);
+Route::get('/reset-password', [AuthController::class, 'resetPassword']);
+Route::post('/reset-password', [AuthController::class, 'postResetPassword']);
 Route::get('email-view', function() {
 	return view('mail.contact');
 });
