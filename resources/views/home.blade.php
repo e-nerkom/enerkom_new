@@ -279,7 +279,7 @@
                 <div class="section-box-three">
                     <!---->
                     <figure>
-                        <h3>Kejaksaan Tinggi Sulawesi Selatan</h3>
+                        <h3>Kejaksaan Tinggi<br>Sulawesi Selatan</h3>
                         <p>Merupakan web atau situs resmi dari Kejaksaan
                         Tinggi Sulawesi Selatan yang didalamnya
                         terdapat informasi dan berita terkait Kejati Sulsel.</p>
