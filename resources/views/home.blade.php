@@ -122,7 +122,7 @@
                     
                 </div>
                 <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-anchor-placement="top-center" class="col-md-6 banner_bottom_grid help" style="margin-top:50px;">
-                    <img src="{{asset('images/about_us.jpg')}}" alt=" " class="img-responsive">
+                    <img src="{{asset('images/about_us_new.jpg')}}" alt=" " class="img-responsive">
                 </div>
 
                 <div class="clearfix"></div>
@@ -279,7 +279,7 @@
                 <div class="section-box-three">
                     <!---->
                     <figure>
-                        <h3>Kejaksaan Tinggi Sulawesi Selatan</h3>
+                        <h3>Kejaksaan Tinggi<br>Sulawesi Selatan</h3>
                         <p>Merupakan web atau situs resmi dari Kejaksaan
                         Tinggi Sulawesi Selatan yang didalamnya
                         terdapat informasi dan berita terkait Kejati Sulsel.</p>
