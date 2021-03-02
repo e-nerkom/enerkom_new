@@ -122,7 +122,7 @@
                     
                 </div>
                 <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-anchor-placement="top-center" class="col-md-6 banner_bottom_grid help" style="margin-top:50px;">
-                    <img src="{{asset('images/about_us.jpg')}}" alt=" " class="img-responsive">
+                    <img src="{{asset('images/about_us_new.jpg')}}" alt=" " class="img-responsive">
                 </div>
 
                 <div class="clearfix"></div>
