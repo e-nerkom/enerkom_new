@@ -53,7 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 	@include('layout/footer')
 	<div class="mybuttonWA">
-		<a style="border-radius:50px;padding:25px 13px 12px" class="buttonWA" href="https://api.whatsapp.com/send?phone=6282126603648&amp;text=Halo%20Enerkom" rel="nofollow" target="_blank">
+		<a style="border-radius:50px;padding:25px 13px 12px" class="buttonWA" href="https://api.whatsapp.com/send?phone=6282116130202&amp;text=Halo%20Enerkom" rel="nofollow" target="_blank">
 		<i class="fab fa-whatsapp" style="font-size:36px;"></i></a>
 	</div>
 	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
