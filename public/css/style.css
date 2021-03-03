@@ -112,6 +112,14 @@ label {
 
 .navbar-default .navbar-brand {
     color: #111;
+    margin-left: -25px;
+}
+
+@media (max-width: 1204px) {
+    .navbar-default .navbar-brand {
+        color: #111;
+        margin-left: 0;
+    }
 }
 
 .logo-w3layouts-agileits h1 a {

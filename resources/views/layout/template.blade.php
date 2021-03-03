@@ -38,15 +38,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //for bootstrap working -->
 	<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,300,300i,400,400i,500,500i,600,600i,700,800" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
+
+	<style>
+	.mybuttonWA{margin:0;padding:0;text-align:center;position:fixed;bottom:100px;right:25px}
+	.buttonWA{font-size:17px;color:#f0e2dd;background:#82c91e;padding:10px;margin:0;overflow:hidden;border-radius:3px;text-decoration:none}
+	.mybuttonWA .buttonWA:hover{background:#62abd0}
+	</style>	
+
 </head>
 
 <body>
-	@include('layout/header')
-	
+	@include('layout/header')	
 	@yield('content')
 	
 	@include('layout/footer')
-
+	<div class="mybuttonWA">
+		<a style="border-radius:50px;padding:25px 13px 12px" class="buttonWA" href="https://api.whatsapp.com/send?phone=6282126603648&amp;text=Halo%20Enerkom" rel="nofollow" target="_blank">
+		<i class="fab fa-whatsapp" style="font-size:36px;"></i></a>
+	</div>
 	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script>
@@ -99,6 +108,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		AOS.init();
 	</script>
 	<!-- //jQuery-Photo-filter-lightbox-Gallery-plugin -->
+
+	
 
 </body>
 
